@@ -16,12 +16,16 @@ body {
   font-size: 60px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-family: "Bitter", serif;
 }
 
 .personagens-slider {
   display: flex;
   justify-content: center;
   align-items: center;
+
+/* justify-content - eixo X e align-items- eixo Y  */
+
   gap: 80px;
 }
 
