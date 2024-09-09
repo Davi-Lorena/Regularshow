@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  padding-bottom: 2rem;
 }
 
 .cabecalho {
@@ -12,7 +13,7 @@ body {
 }
 
 .cabecalho h1 {
-  color: #000000;
+  color: #2c2c2c;
   font-size: 60px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -88,6 +89,8 @@ body {
 .cartao .imagem-personagem {
   width: 100%;
   max-height: 280px;
+  object-fit: cover;
+  aspect-ratio: 1;
 }
 
 .cartao .nome {
@@ -120,6 +123,11 @@ body {
   text-align: justify;
   max-height: 110px;
   overflow-y: auto;
+  
+  &::-webkit-scrollbar {
+    width: 0;
+    min-height: 0;
+  }
 }
 
 .cartao.fundo-1 {

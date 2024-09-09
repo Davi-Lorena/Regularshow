@@ -1,4 +1,3 @@
-
 const btnAvancar = document.getElementById("btn-avancar");
 const btnVoltar = document.getElementById("btn-voltar");
 let cartaoAtual = 0;
